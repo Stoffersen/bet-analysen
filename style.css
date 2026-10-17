@@ -15,3 +15,5 @@
 #analysis h3{font-size:16px;margin:18px 0 8px}#analysis .analysis-row{padding:11px 0;margin:0;border-bottom:1px solid #34475c;line-height:1.5;overflow-wrap:anywhere}#analysis small{display:block;margin-top:12px;color:#b2c5d9}
 
 .analysis-row{padding:12px 0;border-bottom:1px solid #33465c}.analysis-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px}.analysis-top strong{font-size:14px;overflow-wrap:anywhere}.analysis-track{height:8px;border-radius:99px;background:#263d54;overflow:hidden;margin:9px 0 5px}.analysis-fill{height:100%;border-radius:99px}.analysis-fill.loss{background:#e47777}.analysis-fill.gain{background:#54bda0}.analysis-row small{font-size:12px;line-height:1.5;color:#b4c8db}
+
+.loss-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.loss-grid>div{padding:13px;border-radius:10px;background:#14263b;min-width:0}.loss-grid small{display:block;color:#b2c5d9;font-size:12px}.loss-grid strong{display:block;margin-top:7px;font-size:18px;overflow-wrap:anywhere}.analysis-note{color:#b2c5d9;font-size:13px;line-height:1.5}
